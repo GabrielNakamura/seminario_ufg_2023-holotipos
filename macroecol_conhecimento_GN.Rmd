@@ -1,0 +1,215 @@
+---
+title: "O quilo de Saint-Cloud e os detentores do saber"
+subtitle: "Uma história sobre macroecologia do conhecimento"
+author: "Gabriel Nakamura"
+institute: "INCT-EECBio | UFG"
+date: "20/09/2023"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+background-image: url(https://verrecchiaexperience.fr/wp-content/uploads/2021/03/domaine-saint-cloud.jpg)
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+```{r xaringan-tile-view, echo=FALSE}
+xaringanExtra::use_tile_view()
+```
+
+```{r xaringan-animate-css, echo=FALSE}
+xaringanExtra::use_animate_all("fade")
+```
+
+```{r xaringan-tachyons, echo=FALSE}
+xaringanExtra::use_tachyons()
+```
+
+```{r xaringanExtra, echo = FALSE}
+xaringanExtra::use_progress_bar(color = "#0051BA", location = "top")
+```
+
+
+???
+
+Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sharingan_triple.svg)
+
+---
+class: middle
+
+.pull-left[
+# Saint-Cloud
+
+### /sɛ̃ klu/
+]
+
+.pull-right[
+```{r, eval=TRUE, echo=FALSE, out.width= "200%"}
+knitr::include_graphics(here::here("figs", "st-cloud.png"))
+```
+]
+
+
+---
+class: inverse, center
+
+
+```{r, echo=FALSE,eval=TRUE,out.width="50%"}
+knitr::include_graphics(here::here("figs", "santos-dumond.jpeg"))
+```
+
+---
+class: inverse, center
+
+```{r eval=TRUE, echo=FALSE, out.width="50%"}
+knitr::include_graphics(here::here("figs", "prototype_kg.jpeg"))
+```
+
+---
+class: inverse, center
+
+# Le Grand K | Big K | O Grande Quilo
+
+## Protótipo do Quilograma
+
+```{r, echo=FALSE,eval=TRUE, out.width="70%"}
+knitr::include_graphics(here::here("figs", "kilo-object.webp"))
+```
+
+---
+
+# Maio de 2019...
+
+.pull-left[
+```{r, echo=FALSE,eval=TRUE, out.width="100%"}
+knitr::include_graphics(here::here("figs", "kilo-object.webp"))
+```
+]
+
+
+---
+
+# Maio de 2019...
+
+.pull-left[
+```{r, echo=FALSE,eval=TRUE, out.width="100%"}
+knitr::include_graphics(here::here("figs", "kilo-object.webp"))
+knitr::include_graphics(here::here("figs", "new-kg.png"))
+```
+]
+
+--
+
+.pull-right[
+
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+"it is something that scientists and engineers everywhere in the world — and even aliens on other worlds — could match precisely, without having to carry a scale to Paris to check it"
+
+.tr[
+— Wolfgang Ketterle - MIT - Nobel
+]]
+
+]
+
+---
+class: inverse, middle, center
+
+
+# O quilo biológico
+
+.pull-left[
+```{r,echo=FALSE,eval=TRUE,out.width="90%"}
+knitr::include_graphics(here::here("figs", "sjgould_pic.jpeg"))
+```
+]
+
+--
+
+.pull-right[
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+"Evolucaao e Ecologia lida com uma unidade que muda o tempo todo, as especies"
+
+.tr[
+— SJ Gould trecho de algum livro que não me lembro 
+]]
+
+]
+
+---
+
+# Do protótipo para o tipo
+
+```{r, echo=FALSE,eval=TRUE, out.width="100%"}
+knitr::include_graphics(here::here("figs", "museu-nacional.jpeg"))
+```
+
+---
+
+# Holótipos: o Le Grand Quilo dos Biólogos
+
+```{r, echo=FALSE,eval=TRUE, out.width="60%"}
+knitr::include_graphics(here::here("figs", "holotype-ex.png"))
+```
+
+
+
+---
+
+# Onde estão os holótipos
+
+
+---
+
+# Uma história de pescadores
+
+
+---
+
+# Distribuição de holótipos de peixes no mundo
+
+
+---
+
+# Implicações: os detentores do saber
+
+
+---
+
+# Descoberta de novas espécies
+
+
+---
+
+# Desenvolvimento local 
+
+---
+
+# Padrões ecológicos
+
+## LTG - Gradiente latitudinal taxonômico
+
+---
+
+# O que fazer?
+
+
+---
+
+# Agradecimentos
+
+
+---
+
+class: center, middle
+
+# Thanks!
+
+Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
+
+The chakra comes from [remark.js](https://remarkjs.com), [**knitr**](https://yihui.org/knitr/), and [R Markdown](https://rmarkdown.rstudio.com).
