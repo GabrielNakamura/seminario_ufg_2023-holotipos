@@ -153,26 +153,247 @@ knitr::include_graphics(here::here("figs", "museu-nacional.jpeg"))
 
 # Holótipos: o Le Grand Quilo dos Biólogos
 
-```{r, echo=FALSE,eval=TRUE, out.width="60%"}
+.center[
+.pull-left[
+```{r, echo=FALSE,eval=TRUE, out.width="90%"}
 knitr::include_graphics(here::here("figs", "holotype-ex.png"))
 ```
 
+```{r, echo=FALSE,eval=TRUE, out.width="90%"}
+knitr::include_graphics(here::here("figs", "holotype-3.jpeg"))
+```
+]
+]
+
+.center[
+.pull-right[
+```{r, echo=FALSE,eval=TRUE, out.width="90%"}
+knitr::include_graphics(here::here("figs", "holotype-squid.jpeg"))
+```
+
+```{r, echo=FALSE,eval=TRUE, out.width="70%"}
+knitr::include_graphics(here::here("figs", "dino1-holotype.png"))
+```
+]
+
+]
 
 
 ---
+class: inverse, middle, center
 
 # Onde estão os holótipos
 
+--
+
+## Um exemplo da paleontologia
+
 
 ---
 
-# Uma história de pescadores
+# O icônico caso do Ubirajara jubatus
+
+.center[
+```{r, echo=FALSE,eval=TRUE,out.width="70%"}
+knitr::include_graphics(here::here("figs", "ubirajara-jubatus.webp"))
+```
+]
+
+--
+
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+"O fóssil Ubirajara jubatus é um holótipo, ou seja, é uma peça única que serviu de base para a primeira descrição, a descrição original de uma espécie"
+
+.tr[
+— G1 portal de notícias - jun/2023
+]]
+
+---
+
+# O incônico caso do Ubirajara jubatus
+
+.pull-left[
+```{r, echo=FALSE, eval=TRUE, out.width="80%"}
+knitr::include_graphics(here::here("figs", "Indiana-Jones.jpg"))
+```
+
+]
+
+--
+
+.center[
+.pull-left[
+```{r, echo=FALSE, eval=TRUE, out.width="80%"}
+knitr::include_graphics(here::here("figs", "campanha-jubatus.jpeg"))
+```
+
+```{r, echo=FALSE, eval=TRUE, out.width="80%"}
+knitr::include_graphics(here::here("figs", "campanha-ubirajara-2.jpeg"))
+```
+]
+]
 
 
 ---
 
-# Distribuição de holótipos de peixes no mundo
+# Os "Ubirajaras" do mundo 
 
+.center[
+.pull-left[
+```{r, echo=FALSE,eval=TRUE, out.width="100%"}
+knitr::include_graphics(here::here("figs", "paper-raja.png"))
+
+knitr::include_graphics(here::here("figs", "paper-cisneros.png"))
+
+```
+]
+]
+
+--
+
+.center[
+.middle[
+.pull-right[
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+"A espécie de hoje é o Ubirajara de amanhã"
+ ]
+  ]
+   ]
+
+    ]
+
+
+---
+class: inverse, middle, center
+
+# Onde estão os holótipos (das espécies atuais)?
+
+--
+
+## Um estudo sobre **Macroecologia/Biogeografia do Conhecimento**
+
+---
+
+# A distribuição de tipos primários de peixes no mundo
+
+.pull-left[
+```{r, echo=FALSE, eval=TRUE}
+knitr::include_graphics(here::here("figs", "fish_holotype.jpeg"))
+knitr::include_graphics(here::here("figs", "fish_holotype.pbm"))
+```
+]
+
+--
+
+
+.center[
+.pull-right[
+.middle[
+```{r, echo=FALSE, eval=TRUE, out.width="200%"}
+knitr::include_graphics(here::here("figs", "catalog-pic.png"))
+```
+]
+]
+]
+
+---
+
+# A distribuição de tipos primários de peixes no mundo
+
+.pull-left[
+```{r, echo=FALSE,eval=TRUE,out.width="100%"}
+knitr::include_graphics(here::here("figs", "method-data.png"))
+```
+]
+
+.pull-right[
+- Registro do **local de amostragem** do **tipo primário**
+
+]
+
+---
+
+# A distribuição de tipos primários de peixes no mundo
+
+.pull-left[
+```{r, echo=FALSE,eval=TRUE,out.width="100%"}
+knitr::include_graphics(here::here("figs", "method-data2.png"))
+```
+]
+
+.pull-right[
+- Registro do **local de amostragem** do **tipo primário**
+
+- Registro do **museu** do **tipo primário**
+
+- Mais de **26 mil** espécies válidas de **peixes de água doce**
+
+- Avaliação no tempo 
+
+]
+
+---
+
+# A distribuição de tipos primários de peixes no mundo: quem é quem na fila do pão
+
+.pull-left[
+```{r, echo=FALSE,eval=TRUE,out.width="100%",fig.retina=3}
+knitr::include_graphics(here::here("figs", "CT-metric.png"))
+```
+]
+
+.pull-right[
+- Países com maior **concentração total** de tipos primários (O acumulador)
+]
+
+---
+
+# A distribuição de tipos primários de peixes no mundo: quem é quem na fila do pão
+
+.pull-left[
+```{r, echo=FALSE,eval=TRUE,out.width="100%", fig.retina=3}
+knitr::include_graphics(here::here("figs", "MO-metric.png"))
+```
+]
+
+.pull-right[
+- Países com maior **concentração total** de tipos primários (O acumulador)
+
+- Países com alta **taxa de manutenção** de tipos primários (O protetor)
+]
+
+---
+
+# A distribuição de tipos primários de peixes no mundo: quem é quem na fila do pão
+
+.pull-left[
+```{r, echo=FALSE,eval=TRUE,out.width="100%", fig.retina=3}
+knitr::include_graphics(here::here("figs", "MO-metric.png"))
+```
+]
+
+.pull-right[
+- Países com maior **concentração total** de tipos primários (O acumulador)
+
+- Países com alta **taxa de manutenção** de tipos primários (O protetor)
+]
+
+---
+# A distribuição de tipos primários de peixes no mundo: quem é quem na fila do pão
+
+.pull-left[
+```{r, echo=FALSE,eval=TRUE,out.width="100%", fig.retina=3}
+knitr::include_graphics(here::here("figs", "CO-metric.png"))
+```
+]
+
+.pull-right[
+- Países com maior **concentração total** de tipos primários (O acumulador)
+
+- Países com alta **taxa de manutenção** de tipos primários (O protetor)
+
+- Países com alta **proporção de holótipos** amostrados no próprio país - contrário (**O Indiana Jones**)
+]
 
 ---
 
