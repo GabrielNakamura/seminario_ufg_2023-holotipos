@@ -396,6 +396,7 @@ knitr::include_graphics(here::here("figs", "CO-metric.png"))
 ]
 
 ---
+class: inverse, middle, center
 
 # Implicações: os detentores do saber
 
@@ -415,22 +416,50 @@ knitr::include_graphics(here::here("figs", "CO-metric.png"))
 
 ## LTG - Gradiente latitudinal taxonômico
 
+.pull-left[
+```{r, echo=FALSE, eval=TRUE, out.width="100%"}
+knitr::include_graphics(here::here("figs", "Pennel-freman-tree.png"))
+
+knitr::include_graphics(here::here("figs", "diniz-filhoetal-frontiers.png"))
+
+```
+]
+
+--
+
+.pull-right[
+```{r, echo=FALSE,eval=TRUE}
+knitr::include_graphics(here::here("figs", "diniz-filho-fig1.png"))
+```
+
+- Incerteza taxonômica afetando **padrões macroecologicos**
+
+]
+
 ---
+class: inverse, middle, center
 
 # O que fazer?
 
 
 ---
+background-image: url(figs/prototype_kg.jpeg)
+background-position: left
+background-size: contain
+class: center, middle, inverse
 
-# Agradecimentos
+.pull-right[
 
 
----
+<img style="border-radius: 70%;" src="https://www.abc.org.br/wp-content/uploads/2017/04/jos%C3%A9-alexandre.jpg" width="150px"/> <img style="border-radius: 70%;" src="https://brunomioto.com/figures/bruno.png" width="100px"/>
+<img style="border-radius: 70%;" src="https://brunomioto.com/figures/bruno.png" width="100px"/>
 
-class: center, middle
+## Colaboradores
 
-# Thanks!
+Tema dos slides desenvolvido por [Desirée De Leon](http://desiree.rbind.io/).
 
-Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
+Slides criados através do pacote [**xaringan**](https://github.com/yihui/xaringan).
 
-The chakra comes from [remark.js](https://remarkjs.com), [**knitr**](https://yihui.org/knitr/), and [R Markdown](https://rmarkdown.rstudio.com).
+]
+
+
