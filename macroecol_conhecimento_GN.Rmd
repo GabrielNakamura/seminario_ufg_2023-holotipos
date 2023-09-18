@@ -64,10 +64,24 @@ class: inverse, center
 knitr::include_graphics(here::here("figs", "santos-dumond.jpeg"))
 ```
 
+???
+Homenagem da Academia aérea de St-Cloud, a qual alberto santos dumond fez alguns experimentos para vôo e posteriormente recebeu a homenagem
+
 ---
 class: inverse, center
 
-```{r eval=TRUE, echo=FALSE, out.width="50%"}
+.center[
+.middle[
+```{r, echo=FALSE,eval=TRUE,out.width="90%"}
+knitr::include_graphics(here::here("figs", "BIPM-pesos-e-medidas.jpeg"))
+```
+]
+]
+
+---
+class: inverse, center
+
+```{r eval=TRUE, echo=FALSE, out.width="60%"}
 knitr::include_graphics(here::here("figs", "prototype_kg.jpeg"))
 ```
 
@@ -120,6 +134,9 @@ knitr::include_graphics(here::here("figs", "new-kg.png"))
 ---
 class: inverse, middle, center
 
+# O quilo biológico
+
+---
 
 # O quilo biológico
 
@@ -133,7 +150,7 @@ knitr::include_graphics(here::here("figs", "sjgould_pic.jpeg"))
 
 .pull-right[
 .bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
-"Evolucaao e Ecologia lida com uma unidade que muda o tempo todo, as especies"
+"Evoluco e Ecologia lida com uma unidade que muda o tempo todo, as especies"
 
 .tr[
 — SJ Gould trecho de algum livro que não me lembro 
@@ -141,8 +158,8 @@ knitr::include_graphics(here::here("figs", "sjgould_pic.jpeg"))
 
 ]
 
----
 
+---
 # Do protótipo para o tipo
 
 ```{r, echo=FALSE,eval=TRUE, out.width="100%"}
@@ -182,31 +199,44 @@ knitr::include_graphics(here::here("figs", "dino1-holotype.png"))
 ---
 class: inverse, middle, center
 
-# Onde estão os holótipos
+# Onde estão os holótipos? 
 
 --
 
-## Um exemplo da paleontologia
+## Quão acessível são os holótipos?
 
+---
+class: inverse, middle, center
+
+# Um exemplo da Paleontologia: o icônico caso do Ubirajara jubatus
+
+```{r, echo=FALSE,eval=TRUE,out.width="100%"}
+knitr::include_graphics(here::here("figs", "ubirajara-jubatus.webp"))
+```
+
+???
+O primeiro dinossauro não aviário com penas descoberto na América do Sul!
 
 ---
 
-# O icônico caso do Ubirajara jubatus
+# Um exemplo da Paleontologia: o icônico caso do Ubirajara jubatus
 
-.center[
-```{r, echo=FALSE,eval=TRUE,out.width="70%"}
-knitr::include_graphics(here::here("figs", "ubirajara-jubatus.webp"))
-```
-]
+
+
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+"..é um holótipo, [...] é uma peça única que serviu de base para a primeira descrição, a descrição original"
+
+.tr[
+— Juan Cisneros para G1 portal de notícias - jun/2023
+]]
 
 --
 
-.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
-"O fóssil Ubirajara jubatus é um holótipo, ou seja, é uma peça única que serviu de base para a primeira descrição, a descrição original de uma espécie"
-
-.tr[
-— G1 portal de notícias - jun/2023
-]]
+.center[
+```{r, echo=FALSE, eval=TRUE, out.width="70%"}
+knitr::include_graphics(here::here("figs", "trip-to-germany.png"))
+```
+]
 
 ---
 
@@ -216,7 +246,6 @@ knitr::include_graphics(here::here("figs", "ubirajara-jubatus.webp"))
 ```{r, echo=FALSE, eval=TRUE, out.width="80%"}
 knitr::include_graphics(here::here("figs", "Indiana-Jones.jpg"))
 ```
-
 ]
 
 --
@@ -238,29 +267,12 @@ knitr::include_graphics(here::here("figs", "campanha-ubirajara-2.jpeg"))
 
 # Os "Ubirajaras" do mundo 
 
-.center[
-.pull-left[
 ```{r, echo=FALSE,eval=TRUE, out.width="100%"}
 knitr::include_graphics(here::here("figs", "paper-raja.png"))
 
 knitr::include_graphics(here::here("figs", "paper-cisneros.png"))
 
 ```
-]
-]
-
---
-
-.center[
-.middle[
-.pull-right[
-.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
-"A espécie de hoje é o Ubirajara de amanhã"
- ]
-  ]
-   ]
-
-    ]
 
 
 ---
@@ -270,7 +282,12 @@ class: inverse, middle, center
 
 --
 
-## Um estudo sobre **Macroecologia/Biogeografia do Conhecimento**
+> *"A espécie de hoje é o Ubirajara de amanhã"*
+
+
+--
+
+## Um estudo sobre **Distribuição do Conhecimento** no tempo e espaço
 
 ---
 
@@ -284,7 +301,6 @@ knitr::include_graphics(here::here("figs", "fish_holotype.pbm"))
 ]
 
 --
-
 
 .center[
 .pull-right[
@@ -334,6 +350,14 @@ knitr::include_graphics(here::here("figs", "method-data2.png"))
 
 ---
 
+# O fluxo dos tipo no tempo e espaço
+
+```{r, echo=FALSE, eval=TRUE, out.width="100%"}
+knitr::include_graphics(here::here("figs", "fluxo-tipos.png"))
+```
+
+---
+
 # A distribuição de tipos primários de peixes no mundo: quem é quem na fila do pão
 
 .pull-left[
@@ -379,6 +403,7 @@ knitr::include_graphics(here::here("figs", "MO-metric.png"))
 ]
 
 ---
+
 # A distribuição de tipos primários de peixes no mundo: quem é quem na fila do pão
 
 .pull-left[
@@ -396,19 +421,139 @@ knitr::include_graphics(here::here("figs", "CO-metric.png"))
 ]
 
 ---
+
+# Quem é quem na fila do peixe
+
+.center[
+```{r, echo=FALSE, eval=TRUE, out.width="70%"}
+knitr::include_graphics(here::here("figs", "scheme-metrics0.png"))
+```
+]
+
+---
+
+# Quem é quem na fila do peixe
+
+.center[
+```{r, echo=FALSE, eval=TRUE, out.width="70%"}
+knitr::include_graphics(here::here("figs", "scheme-metrics.png"))
+```
+]
+
+---
+
+# Quem é quem na fila do peixe
+
+.center[
+```{r, echo=FALSE, eval=TRUE, out.width="70%"}
+knitr::include_graphics(here::here("figs", "scheme-metrics2.png"))
+```
+]
+
+---
+
+# Quem é quem na fila do peixe
+
+.center[
+```{r, echo=FALSE, eval=TRUE, out.width="70%"}
+knitr::include_graphics(here::here("figs", "scheme-metrics3.png"))
+```
+]
+
+---
+
+# Quem é quem na fila do peixe
+
+.center[
+```{r, echo=FALSE, eval=TRUE, out.height="50%", out.width="70%"}
+knitr::include_graphics(here::here("figs", "scheme-metrics4.png"))
+```
+]
+
+---
+
+# Quem é quem na fila do peixe
+
+
+```{r, echo=FALSE, eval=TRUE, out.width="90%"}
+knitr::include_graphics(here::here("figs", "metrics-all-regions.png"))
+```
+
+---
+
+# Quem é quem na fila do peixe
+
+```{r, echo=FALSE, eval=TRUE, out.width="80%"}
+knitr::include_graphics(here::here("figs", "metrics-all-regions2.png"))
+```
+
+---
+
+# Quem é quem na fila do peixe
+
+```{r, echo=FALSE, eval=TRUE, out.width="90%"}
+knitr::include_graphics(here::here("figs", "metrics-all-regions3.png"))
+```
+
+---
 class: inverse, middle, center
 
 # Implicações: os detentores do saber
+
+--
+
+```{r, echo=FALSE, eval=TRUE, out.width="60%"}
+knitr::include_graphics(here::here("figs", "maps_proportion_new.png"))
+```
+
+---
+
+# Ética e legalidade
+
+.pull-left[
+```{r, echo=FALSE, eval=TRUE, out.width="80%"}
+knitr::include_graphics(here::here("figs", "nagoya-protocol.png"))
+```
+]
+
+--
+
+.pull-right[
+```{r, echo=FALSE, eval=TRUE, out.width="90%"}
+knitr::include_graphics(here::here("figs", "lucy-souza-oeco.png"))
+```
+
+```{r, echo=FALSE, eval=TRUE, out.width="100%"}
+knitr::include_graphics(here::here("figs", "decreto-1990.png"))
+```
+
+```{r, echo=FALSE, eval=TRUE, out.width="80%"}
+knitr::include_graphics(here::here("figs", "omar-fernandez.png"))
+```
+
+]
+
+---
+
+# Desenvolvimento da ciência
 
 
 ---
 
 # Descoberta de novas espécies
 
+.pull-left[
+```{r, echo=FALSE, eval=TRUE, out.width="100%"}
+knitr::include_graphics(here::here("figs", "carvalho-etal-2022.png"))
+```
+]
 
----
+.pull-right[
+```{r, echo=FALSE, eval=TRUE, out.width="100%"}
+knitr::include_graphics(here::here("figs", "moura-jetz.png"))
+```
+]
 
-# Desenvolvimento local 
 
 ---
 
@@ -441,9 +586,41 @@ class: inverse, middle, center
 
 # O que fazer?
 
+---
+
+# Algumas iniciativas
+
+.pull-left[
+```{r, echo=FALSE, eval=TRUE}
+knitr::include_graphics(here::here("figs", "reflora-brasil.png"))
+knitr::include_graphics(here::here("figs", "herbario-virtual.png"))
+```
+
+]
+
+--
+.rigth[
+.pull-right[
+```{r, echo=FALSE, eval=TRUE, out.width="70%"}
+knitr::include_graphics(here::here("figs", "nagoya-protocol.png"))
+```
+
+```{r, echo=FALSE, eval=TRUE, out.width="100%"}
+knitr::include_graphics(here::here("figs", "decreto-1990.png"))
+```
+
+]
+]
 
 ---
-background-image: url(figs/prototype_kg.jpeg)
+
+# Macroecologia do conhecimento
+
+
+
+---
+
+background-image: url(figs/america-invertida.jpeg)
 background-position: left
 background-size: contain
 class: center, middle, inverse
