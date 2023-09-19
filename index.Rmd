@@ -137,8 +137,6 @@ class: inverse, middle, center
 
 ???
 
-
-
 ---
 
 # O quilo biológico
@@ -206,7 +204,7 @@ class: inverse, middle, center
 
 --
 
-## Quão acessível são os holótipos?
+## Quem são os detentores do saber biológico?
 
 ???
 um quilo nem sempre precisa ser checado, mas uma espécie, por mais comum que seja, sempre sucita dúvidas sobre sua identidade... Estamos sempre nos perguntando, o que será isso? Será que os tipos primários estão acessíveis para esse tipo de checagem básica que interfere em quase tudo o resto em bio?
