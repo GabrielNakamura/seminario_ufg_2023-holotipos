@@ -589,6 +589,8 @@ knitr::include_graphics(here::here("figs", "diniz-filho-fig1.png"))
 
 - Incerteza taxonômica afetando **padrões macroecologicos**
 
+- Relação entre **idade e incerteza taxonômica**
+
 ]
 
 ---
@@ -635,6 +637,24 @@ class: inverse, middle, center
 ---
 class: inverse, middle, center
 
+# Macroecologia do conhecimento **e** processo científico
+
+```{r, echo=FALSE, eval=TRUE}
+knitr::include_graphics(here::here("figs", "final-scheme1.png"))
+```
+
+---
+class: inverse, middle, center
+
+# Macroecologia do conhecimento **e** processo científico
+
+```{r, echo=FALSE, eval=TRUE}
+knitr::include_graphics(here::here("figs", "final-scheme2.png"))
+```
+
+---
+class: inverse, middle, center
+
 ```{r, echo=FALSE, eval=TRUE}
 knitr::include_graphics(here::here("figs", "ubirajara-expo-cariri.jpeg"))
 ```
@@ -644,7 +664,7 @@ class: inverse, middle, center
 
 ## Colaboradores
 
-<img style="border-radius: 70%;" src="https://www.abc.org.br/wp-content/uploads/2017/04/jos%C3%A9-alexandre.jpg" width="150px"/> <img style="border-radius: 70%;" src="https://brunomioto.com/figures/bruno.png" width="100px"/>
+<img style="border-radius: 70%;" src="https://www.abc.org.br/wp-content/uploads/2017/04/jos%C3%A9-alexandre.jpg" width="150px"/> <img style="border-radius: 70%;" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K2530919A5" width="100px"/>
 <img style="border-radius: 70%;" src="https://brunomioto.com/figures/bruno.png" width="100px"/>
 
 INCT-EECBio 
@@ -657,8 +677,26 @@ class: inverse, middle, center
 
 #Leituras
 
+.pull-left[
+```{r, echo=FALSE, eval=TRUE}
+knitr::include_graphics(here::here("figs", "omar-fernandez.png"))
+```
 
+```{r, echo=FALSE, eval=TRUE}
+knitr::include_graphics(here::here("figs", "lucy_ghilardi_eco.png"))
+```
+]
 
+--
+
+.pull-right[
+```{r, echo=FALSE, eval=TRUE, out.width="60%"}
+knitr::include_graphics(here::here("figs", "dictionary-lost-words.jpg"))
+```
+
+> “At the end of the day there’s no proof I’ve been here at all."
+
+]
 
 
 
