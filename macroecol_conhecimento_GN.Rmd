@@ -508,9 +508,16 @@ class: inverse, middle, center
 
 --
 
-```{r, echo=FALSE, eval=TRUE, out.width="60%"}
-knitr::include_graphics(here::here("figs", "maps_proportion_new.png"))
+```{r, echo=FALSE, eval=TRUE, out.width="75%"}
+knitr::include_graphics(here::here("figs", "holotipos-por-pais.png"))
 ```
+
+--
+
+```{r, echo=FALSE, eval=TRUE, out.width="75%"}
+knitr::include_graphics(here::here("figs", "tipos-por-pais.png"))
+```
+
 
 ---
 
@@ -662,19 +669,6 @@ knitr::include_graphics(here::here("figs", "ubirajara-expo-cariri.jpeg"))
 ---
 class: inverse, middle, center
 
-## Colaboradores
-
-<img style="border-radius: 70%;" src="https://www.abc.org.br/wp-content/uploads/2017/04/jos%C3%A9-alexandre.jpg" width="150px"/> <img style="border-radius: 70%;" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K2530919A5" width="100px"/>
-<img style="border-radius: 70%;" src="https://brunomioto.com/figures/bruno.png" width="100px"/>
-
-INCT-EECBio 
-
-Universidade Estadual de Maringá (UEM-PPG Ecologia de Ambientes Aquáticos Continentais)
-
-
----
-class: inverse, middle, center
-
 #Leituras
 
 .pull-left[
@@ -697,6 +691,18 @@ knitr::include_graphics(here::here("figs", "dictionary-lost-words.jpg"))
 > “At the end of the day there’s no proof I’ve been here at all."
 
 ]
+
+---
+class: inverse, middle, center
+
+## Colaboradores
+
+<img style="border-radius: 70%;" src="https://www.abc.org.br/wp-content/uploads/2017/04/jos%C3%A9-alexandre.jpg" width="150px"/> <img style="border-radius: 70%;" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K2530919A5" width="100px"/>
+<img style="border-radius: 70%;" src="https://brunomioto.com/figures/bruno.png" width="100px"/>
+
+INCT-EECBio 
+
+Universidade Estadual de Maringá (UEM-PPG Ecologia de Ambientes Aquáticos Continentais)
 
 
 
