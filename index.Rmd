@@ -656,16 +656,9 @@ class: inverse, middle, center
 ```{r, echo=FALSE, eval=TRUE}
 knitr::include_graphics(here::here("figs", "final-scheme2.png"))
 ```
-
----
 class: inverse, middle, center
 
-```{r, echo=FALSE, eval=TRUE}
-knitr::include_graphics(here::here("figs", "ubirajara-expo-cariri.jpeg"))
-```
-
 ---
-class: inverse, middle, center
 
 #Leituras
 
@@ -695,6 +688,14 @@ knitr::include_graphics(here::here("figs", "dictionary-lost-words.jpg"))
 Se encaixa muito bem com a ideia do conhecimento extraviado ou enviado para longe da sua origem, que depois de tanto tempo em outro lugar a gente nem mesmo lembra que foi parte do nosso ambiente. E isso fica mais potente ainda se a gente pensar que vivemos numa época de extinções acelaradas... se tudo continuar como está talvez daqui um tempo a gente nem mesmo lembre das espécies que um dia tivemos aqui
 
 ---
+class: inverse, middle, center
+
+```{r, echo=FALSE, eval=TRUE}
+knitr::include_graphics(here::here("figs", "ubirajara-expo-cariri.jpeg"))
+```
+
+---
+
 class: inverse, middle, center
 
 ## Colaboradores
