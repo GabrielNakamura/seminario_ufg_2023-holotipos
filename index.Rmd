@@ -151,7 +151,7 @@ knitr::include_graphics(here::here("figs", "sjgould_pic.jpeg"))
 
 .pull-right[
 .bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
-"Evoluco e Ecologia lida com uma unidade que muda o tempo todo, as especies"
+"Evolução e Ecologia lida com uma unidade que muda o tempo todo, as espécies"
 
 .tr[
 — SJ Gould trecho de algum livro que não me lembro 
