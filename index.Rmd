@@ -695,7 +695,6 @@ knitr::include_graphics(here::here("figs", "ubirajara-expo-cariri.jpeg"))
 ```
 
 ---
-
 class: inverse, middle, center
 
 ## Colaboradores
